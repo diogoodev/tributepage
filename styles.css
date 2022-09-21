@@ -8,7 +8,7 @@ text-align: center;
 margin: 0 auto;
 background-color: #393939;
 color: #FCB704;
-font-size: 1.2rem;
+font-size: 1.1rem;
 line-height: 1.5;
 min-width:460px;
 }
@@ -43,7 +43,7 @@ max-width: 100%;
   background-color: #393939;
 }
 #img-caption{
-  margin: 5px;
+  margin: 15px 0 5px;
 }
 .titulo{
   width: 100%;
@@ -54,7 +54,11 @@ max-width: 100%;
 }
 h1{
   margin: 0;
-  font-size: 4rem;
+  font-size: 3rem;
+}
+p{
+  margin-left: 25vw;
+  margin-right: 25vw;
 }
 .bold{
 font-weight: bold;
@@ -67,14 +71,20 @@ ul{
   text-align: left;
   
 }
+li{
+  margin: 16px 0 0 0 ;
+}
 #tribute-info{
   margin:0;
   margin-left: 20vw;
   margin-right: 20vw;
-  line-height: 1.9;
 }
 blockquote{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
   font-style: italic;
+  text-align: left;
 }
 @media screen and (max-width: 760px) {
   #tribute-info {
