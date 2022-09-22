@@ -3,6 +3,12 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+hmtl{
+  /* Configurando a fonte base com 10px, facilita o calculo do rem.
+  Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px e assim  por diante.
+*/
+font-size: 10px;
+}
 @media screen and (min-width: 700px) {
   body {
     display: block;
@@ -10,7 +16,7 @@
     margin: 0 auto;
     background-color: #393939;
     color: #fcb704;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.5;
   }
   main {
@@ -86,7 +92,7 @@
     margin: 0 auto;
     background-color: #393939;
     color: #fcb704;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.5;
   }
   main {
@@ -117,7 +123,7 @@
     background-color: #393939;
   }
   #img-caption {
-    font-size: 12px;
+    font-size: 1.2rem;
     margin: 15px 0 5px;
   }
   .titulo {
@@ -132,7 +138,7 @@
   }
   p {
     margin: 16px auto 16px auto;
-    font-size: 14px;
+    font-size: 1.3rem;
   }
   .bold {
     font-weight: bold;
@@ -140,7 +146,7 @@
   ul {
     margin: 0 auto 0 auto;
     text-align: left;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 2;
   }
 
@@ -151,6 +157,6 @@
     display: block;
     font-style: italic;
     text-align: left;
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 }
