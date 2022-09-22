@@ -69,15 +69,14 @@ ul{
   justify-content: center;
   align-items: left;
   text-align: left;
-  
 }
 li{
   margin: 16px 0 0 0 ;
 }
 #tribute-info{
   margin:0;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
 }
 blockquote{
   display: flex;
@@ -85,11 +84,38 @@ blockquote{
   justify-content: left;
   font-style: italic;
   text-align: left;
-}
-@media screen and (max-width: 760px) {
+} 
+@media screen and (max-width: 475px) {
+  body{
+    font-size: 16px;
+    line-height: 2
+  }
   #tribute-info {
-     margin:0;
+  margin:0;
   margin-left: 1vw;
   margin-right: 1vw;
+  }
+} 
+
+@media screen and (max-width: 700px) {
+  body{
+    font-size: 16px;
+    line-height: 2
+  }
+  #tribute-info {
+  margin:0;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  }
+} 
+@media screen and (max-width: 1000px) {
+  body{
+    font-size: 16px;
+    line-height: 2
+  }
+  #tribute-info {
+  margin:0;
+  margin-left: 8vw;
+  margin-right: 8vw;
   }
 } 
