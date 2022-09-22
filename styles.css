@@ -86,7 +86,7 @@
     margin: 0 auto;
     background-color: #393939;
     color: #fcb704;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
   }
   main {
@@ -95,7 +95,6 @@
     justify-content: center;
     background-color: #525252;
     color: #fcb704;
-    min-width: 400px;
   }
   #main {
     margin: 30px 8px;
@@ -128,7 +127,7 @@
   }
   h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   p {
     margin: 16px auto 16px auto;
@@ -141,6 +140,7 @@
     margin: 0 auto 0 auto;
     text-align: left;
     font-size: 14px;
+    line-height: 2
   }
 
   li {
