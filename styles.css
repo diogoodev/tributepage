@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap');
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-hmtl{
+hmtl {
   /* Configurando a fonte base com 10px, facilita o calculo do rem.
   Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px e assim  por diante.
 */
-font-size: 10px;
+  font-size: 10px;
 }
 @media screen and (min-width: 700px) {
   body {
@@ -16,7 +16,7 @@ font-size: 10px;
     margin: 0 auto;
     background-color: #393939;
     color: #fcb704;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.5;
   }
   main {
@@ -60,7 +60,7 @@ font-size: 10px;
     margin: 0;
     font-size: 3rem;
   }
-  p {
+  #sub {
     margin: 16px auto 16px auto;
     width: 650px;
   }
@@ -80,10 +80,14 @@ font-size: 10px;
     margin: 16px 0 0 0;
   }
   blockquote {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
     font-style: italic;
     text-align: left;
     margin: 0 auto 0 auto;
+    max-width: 600px;
   }
 }
 @media screen and (max-width: 699px) {
