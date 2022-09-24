@@ -9,6 +9,15 @@ hmtl {
 */
   font-size: 10px;
 }
+a{
+  color: #CCCCCC;
+}
+a:hover{
+  color: #BC9743;
+}
+a:visited {
+  color: #D8C18D;
+}
 @media screen and (min-width: 700px) {
   body {
     display: block;
@@ -96,8 +105,8 @@ hmtl {
     margin: 0 auto;
     background-color: #393939;
     color: #fcb704;
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.1;
   }
   main {
     display: flex;
@@ -107,10 +116,8 @@ hmtl {
     color: #fcb704;
   }
   #main {
-    margin: 30px 8px;
-    padding: 15px;
-    border-radius: 5px;
-    max-width: 100%;
+    margin: 0;
+
   }
   img {
     display: block;
@@ -127,7 +134,7 @@ hmtl {
     background-color: #393939;
   }
   #img-caption {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 15px 0 5px;
   }
   .titulo {
@@ -141,8 +148,9 @@ hmtl {
     font-size: 2rem;
   }
   p {
-    margin: 16px auto 16px auto;
-    font-size: 1.3rem;
+    margin: 16px 16px 16px 16px;
+    font-size: 1.1rem;
+    text-align: left;
   }
   .bold {
     font-weight: bold;
@@ -150,12 +158,12 @@ hmtl {
   ul {
     margin: 0 auto 0 auto;
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 2;
   }
 
   li {
-    margin: 16px 0 0 0;
+    margin: 16px 16px 0 0;
   }
   blockquote {
     display: block;
