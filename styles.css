@@ -116,8 +116,10 @@ a:visited {
     color: #fcb704;
   }
   #main {
-    margin: 0;
-
+    margin: 15px 4px;
+    padding: 7px;
+    border-radius: 3px;
+    max-width: 100%;
   }
   img {
     display: block;
